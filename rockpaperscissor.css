@@ -1,0 +1,85 @@
+* {
+    
+    margin :0;
+    padding : 0;
+    text-align: center;
+    /* background-color:#4a4e69; */
+    /* background-color: #22223b; */
+    background-color: #d8e4ff;
+}
+
+h1{
+    background-color: #22223b;
+    color: white;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.choice{
+    height: 350px;
+    width: 277x;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 3px;
+}
+
+/* #Rock{
+    background-color: brown;
+}
+#Paper{
+    background-color: rgb(42, 83, 158);
+}
+#Scissor{
+    background-color: cyan;
+} */
+
+img{
+    height: 350px;
+    width: 270px;
+    object-fit: cover;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* Changing the properties when we hover on them :  */
+
+.choice:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    border : 6px solid wheat; 
+}
+
+.Score-Board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 20rem;
+    font-size: 2rem;
+
+}
+
+#Player-Score,#Bot-Score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 2rem;
+}
+
+#msg{
+    /* background-color: deeppink; */
+    background-color:#9a8c98;
+    color: white;
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    border: solid wheat 2px;
+}
